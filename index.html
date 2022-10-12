@@ -3,7 +3,19 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1></h1>
-        <script src="index.js"></script>
+        <div class="container">
+            <h1 class="main_header"><span class='h2t1'>Generate a </span>
+            <br>random password</h1>
+            <p class="subheader">Never use an insecure password again.</p>
+            <p class="password_length_caption">Password length:</p>
+            <input type="text" id="pwd-length" value="15">
+            <buttom id="pwd-generator">Generate passwords</buttom>
+            <div class="div-line"></div>
+            <div class="pwd-wins-container">
+                <div class="pwd-win" id="pwd-win1"></div>
+                <div class="pwd-win" id="pwd-win2"></div>
+            </div>
+            <script src="index.js"></script>
+        </div>
     </body>
 </html>

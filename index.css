@@ -1,3 +1,91 @@
 body {
     margin: 0;
+    background-color: #1F2937;
+}
+
+.container {
+    width: 446px;
+    margin: 0 auto;
+}
+
+.main_header {
+    font-family: Karla, sans-serif;
+    font-size: 40px;
+    color: #4ADF86;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+
+.h2t1 {
+    color: #ffffff;
+}
+
+.subheader {
+    color: #D5D4D8;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    margin-top: 3px;
+    padding-top: 0;
+}
+
+#pwd-generator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    background-color: #10B981;
+    border-radius: 6px;
+    border: 0;
+    width: 191px;
+    min-width: 191px;
+    height: 42px;
+    min-height: 42px;
+    margin-top: 50px;
+}
+
+.div-line {
+    margin-top: 50px;
+    display:block;
+    height:1px;
+    width:100%;
+    background: #2F3E53;
+}
+
+.pwd-wins-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pwd-win {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 211px;
+    height: 39px;
+    background-color: #273549;
+    border-radius: 6px;
+    color: #55F991;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+}
+
+.password_length_caption {
+    color: #D5D4D8;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding-top: 0;
+}
+
+input {
+    font-family: Inter, sans-serif;
+    border-radius: 6px;
+    border: 0;
+    padding: 3px 5px;
 }
